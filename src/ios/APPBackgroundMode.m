@@ -172,7 +172,7 @@ NSString* const kAPPBackgroundEventDeactivate = @"deactivate";
 
     // Play music even in background and dont stop playing music
     // even another app starts playing sound
-    [session setCategory:AVAudioSessionCategoryPlayback
+    [session setCategory:AVAudioSessionCategoryAmbient
                    error:NULL];
 
     // Active the audio session
